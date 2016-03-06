@@ -96,3 +96,34 @@ h1 {
 input[type=button], input[type=submit], input[type=text] {
 	font-family: 'Transport';
 }
+
+.searchGp input[type=text] {
+	border: 1px solid black;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+.fr{float: right;}
+ 
+.cf:before,.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.pos-mid{
+  position: fixed; /* or absolute */
+  left: 50%;	
+}
