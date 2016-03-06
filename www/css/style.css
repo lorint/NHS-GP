@@ -2,6 +2,11 @@
 	text-align: center;
 }
 
+.languageContent {
+	background-image: url("../img/indian-doctor-questioning-patient.jpg");
+	background-size: 100%;
+}
+
 #brcPic {width: 150px;
 	vertical-align: middle;}
 
