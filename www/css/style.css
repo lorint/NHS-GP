@@ -39,3 +39,30 @@ h1, h2, h3 {
 input[type=button], input[type=submit] {
 	font-family: 'Transport';
 }
+
+
+
+ .fr{float: right;}
+ 
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+.pos-mid{
+  position: fixed; /* or absolute */
+  left: 50%;	
+}
