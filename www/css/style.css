@@ -1,0 +1,41 @@
+.center {
+	text-align: center;
+}
+
+#brcPic {width: 150px;
+	vertical-align: middle;}
+
+#dowPic {width: 100px;
+	vertical-align: middle;}
+
+#nhsPic {width: 120px;
+	vertical-align: middle;}
+
+@font-face {
+	font-family: 'Transport';
+	src: url("transportMedium.ttf");
+}
+@font-face {
+	font-family: 'TransportMedium';
+	src: url("transportMediumGreek.ttf");
+}
+@font-face {
+	font-family: 'TransportHeavy';
+	src: url("transportHeavy.ttf");
+}
+
+body {
+	font-family: Transport;
+}
+
+.boldFont {
+	font-family: 'TransportHeavy';
+}
+
+h1, h2, h3 {
+	font-family: 'TransportHeavy';	
+}
+
+input[type=button], input[type=submit] {
+	font-family: 'Transport';
+}
