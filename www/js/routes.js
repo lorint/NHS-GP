@@ -41,6 +41,10 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
     templateUrl: 'templates/tab-4-find_closest_gp.html',
     parent: "tab", controller: 'MapCtrl'
   }}})
+  .state('tab.4a-map',{url: '/4a-map/:postcode',views:{'tab-4a-map': {
+    templateUrl: 'templates/tab-4a-map.html',
+    parent: "tab", controller: 'MapCtrl'
+  }}})
   .state('tab.5-what_to_expect',{url: '/5-what_to_expect',views:{'tab-5-what_to_expect': {
     templateUrl: 'templates/tab-5-what_to_expect.html',
     parent: "tab", controller: 'DashCtrl'
@@ -65,5 +69,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
   }}});
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/5-what_to_expect');
+  $urlRouterProvider.otherwise('/tab/1-language');
 });

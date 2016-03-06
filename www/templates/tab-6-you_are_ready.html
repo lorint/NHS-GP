@@ -1,5 +1,21 @@
-<ion-view view-title="You are ready" on-swipe-left="goToPage('tab.5-what_to_expect')">
+<ion-view view-title="You are ready" on-swipe-right="goToPage('tab.5-what_to_expect')">
   <ion-content class="has-header">
-		<p>You are ready!! See you Soon!!</p>
+		<div class="card">
+		  <div class="item item-text-wrap">
+				You are ready!! See you Soon!!
+			</div>
+		</div>
+
+		<div class="card">
+		  <div class="item item-text-wrap">
+		  	<h3>If you are having problems joining</h3>
+		  	Still can't join the GP?  Contact one of these charities.  Or <ng-link>let us know</ng-link>.
+				<div class="row center">
+			  	<div class="col col-33"><img id="brcPic" src="img/british_red_cross.jpg" /></div>
+			  	<div class="col col-33"><img id="dowPic" src="img/doctors_of_the_world.jpg" /></div>
+			  	<div class="col col-33"><img id="nhsPic" src="img/national_health_service.jpg" /></div>
+			  </div>
+		  </div>
+		</div>
   </ion-content>
 </ion-view>

@@ -6,6 +6,37 @@
 	background-image: url("../img/indian-doctor-questioning-patient.jpg");
 	background-size: 100%;
 }
+.languageContent2 {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	display: inline-block;
+	width: 75%;
+	font-size: 30pt;
+	text-align: left;
+	line-height: 1em;
+}
+.languageContent2 p {
+	clear: both;
+	cursor: pointer;
+}
+.languageContent2 img {
+	width: 10%;
+	margin-top: 0.2em;
+	float:right;
+}
+
+.languageContent3 {
+	display: inline-block;
+	width: 85%;
+	font-size: 30pt;
+	line-height: 1.2em;
+}
+.languageContent3 input[type=button] {
+	margin-top: 1em;
+	width: 65%;
+	height: 1.5em;
+	font-size: 1em;
+}
 
 #brcPic {width: 150px;
 	vertical-align: middle;}
@@ -15,6 +46,8 @@
 
 #nhsPic {width: 120px;
 	vertical-align: middle;}
+
+#nhsPicSmall {width: 30%;}
 
 @font-face {
 	font-family: 'Transport';
@@ -28,19 +61,38 @@
 	font-family: 'TransportHeavy';
 	src: url("transportHeavy.ttf");
 }
+@font-face {
+	font-family: 'Kalpurush';
+	src: url("kalpurush.ttf");
+}
 
 body {
-	font-family: Transport;
+	font-family: 'Transport';
+}
+
+img.conversation {
+	width: 100%;
 }
 
 .boldFont {
 	font-family: 'TransportHeavy';
 }
 
+.simpleFont {
+	font-family: 'Helvetica';
+}
+
+.kalpurush {
+	font-family: "Kalpurush";
+}
+
 h1, h2, h3 {
 	font-family: 'TransportHeavy';	
 }
+h1 {
+	font-size: 50pt;
+}
 
-input[type=button], input[type=submit] {
+input[type=button], input[type=submit], input[type=text] {
 	font-family: 'Transport';
 }

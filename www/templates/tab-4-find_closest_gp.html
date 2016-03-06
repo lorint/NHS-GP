@@ -1,9 +1,18 @@
 <ion-view hide-nav-bar="true" has-header="false"
- on-swipe-left="goToPage('tab.3-i_am_a_gp')"
- on-swipe-right="goToPage('tab.5-what_to_expect')">
+ on-swipe-right="goToPage('tab.3-i_am_a_gp')"
+ on-swipe-left="goToPage('tab.5-what_to_expect')">
   <ion-content class="has-header">
-		<p class="boldFont">Now lets help you find your closest GP.</p>
-		<p>Put in the postcode of your home or where you sleep most of the time</p>
-		<input type="text" /><input type="button" value="Search" /><br />
+		<div class="card">
+		  <div class="item item-text-wrap">
+				<p class="boldFont">Now lets help you find your closest GP.</p>
+				<p>Put in the postcode of your home or where you sleep most of the time</p>
+		  </div>
+		</div>
+		<div class="card">
+		  <div class="item item-text-wrap searchGp">
+				<input type="text" id="searchMyGp" ng-model="postcode" /><br />
+				<input type="button" id="btnSearchGp" value="Search" ng-click="search" />
+		  </div>
+		</div>
   </ion-content>
 </ion-view>
